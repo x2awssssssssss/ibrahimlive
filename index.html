@@ -325,13 +325,12 @@
 
         createBoard();
     </script>
-
 <!-- شاشة الحماية بكلمة مرور -->
-<div id="passwordScreen" style="position: fixed; inset: 0; background-color: #273e79; z-index: 9999; display: flex; flex-direction: column; justify-content: center; align-items: center; color: white; font-family: 'El Messiri', sans-serif;">
-  <h2 style="font-size: 2em; margin-bottom: 20px;">🚫 هذه الصفحة محمية</h2>
-  <p>من فضلك أدخل كلمة المرور للدخول:</p>
-  <input type="password" id="passwordInput" placeholder="كلمة المرور" style="padding: 10px; font-size: 18px; border-radius: 5px; border: none; text-align: center; margin-top: 10px;">
-  <button onclick="checkPassword()" style="margin-top: 20px; padding: 10px 20px; font-size: 18px; border-radius: 5px; cursor: pointer;">دخول</button>
+<div id="passwordScreen" style="position: fixed; inset: 0; background-color: #273e79; z-index: 9999; display: flex; flex-direction: column; justify-content: center; align-items: center; color: white; font-family: 'El Messiri', sans-serif; font-size: 24px; padding: 20px;">
+  <h2 style="font-size: 3em; margin-bottom: 30px;">🚫 هذه الصفحة محمية</h2>
+  <p style="margin-bottom: 20px;">كلمة المرور يالحبيب:</p>
+  <input type="password" id="passwordInput" placeholder="كلمة المرور" style="padding: 20px; font-size: 24px; border-radius: 8px; border: none; text-align: center; width: 300px;">
+  <button onclick="checkPassword()" style="margin-top: 30px; padding: 15px 40px; font-size: 22px; border-radius: 8px; cursor: pointer; background-color: #1e6091; color: white; border: none;">دخول</button>
 </div>
 
 <script>
@@ -351,6 +350,8 @@
       checkPassword();
     }
   });
+</script>
+
 </script>
 
 
